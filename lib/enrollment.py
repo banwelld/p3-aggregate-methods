@@ -30,7 +30,6 @@ class Course:
     def get_enrollments(self):
         return self._enrollments.copy()
 
-
 class Enrollment:
     all = []
     
